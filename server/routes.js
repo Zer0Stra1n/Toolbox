@@ -5,5 +5,5 @@ var path = require('path'),
 
 api.main = (req, res) => {
     res.send('Hello World');
-    // res.sendFile(path.resolve(__dirname, '<path to app shell here>'));
+    // res.sendFile(path.resolve(__dirname, '<path to app-shell here>'));
 };
